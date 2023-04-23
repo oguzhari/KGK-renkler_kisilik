@@ -80,7 +80,7 @@ j2 = "Toplantı eğlenceli bir şekilde devam ederse sonuna kadar kalırım. Top
 j3 = "Toplantının huzur içinde geçmesi ve güzel kararlar alınması için üstüme düşeni yaparım."
 j4 = "Toplantıya tam vaktinde veya vaktinden önce gelirim. Toplantı esnasında notlar alır, " \
      "sonunda biraz kalarak değerlendirme yaparım."
-k = "Kendinizde gördüğünz en zayıf yönünüz hangisidir?"
+k = "Kendinizde gördüğünüz en zayıf yönünüz hangisidir?"
 k1 = "İşler zamanında ve istediğim gibi yapılmadığında sinirlenmek."
 k2 = "Düzensiz, dağınık ve plansız olmak."
 k3 = "Kimseye 'hayır' diyememek, başkalarının işine koşarken kendi işimi aksatmak."
@@ -833,7 +833,7 @@ def kontrol_butonu():
         with st.empty():
             st.success("Analiz oluşturuluyor...")
             dosya_olustur()
-            st.success("Oluşturuldu! Analiz kaydediliyor...")
+            st.success("Analiz oluşturuldu! Kaydediliyor...")
             dosyayi_kaydet()
             st.success("Analiz Kaydedildi, kariyer@sakarya.edu.tr üzerinden bizimle iletişime geçebilirsiniz.")
         st.balloons()
@@ -915,8 +915,12 @@ def gorseli_olustur():
         resimle_ilgili_not = "* Resimle ilgili ufak bir not: Analiziniz sonucunda birkaç renk çıktı. Ancak " \
                              "bu demek değildir ki sadece birkaç renk ifade ediyorsunuz. Hayatta her şey siyah veya " \
                              "beyaz olmadığı gibi, sadece birkaç renk de değildir. Sadece birkaç renk çıksanız bile, " \
-                             "bu renklerin birçok tonu olduğunu unutmayın."
-
+                             "bu renklerin birçok tonu olduğunu unutmayın. Bu görsel için toplam dağılımın envanter " \
+                             "sonucunuzdan elde edildi. ("
+        for r, n in zip(rational, total_names):
+            if r != 0:
+                resimle_ilgili_not += f" %{str(round(r*100))} {n}"
+        resimle_ilgili_not += ")"
 
 def versiyon():
     st.caption("""
