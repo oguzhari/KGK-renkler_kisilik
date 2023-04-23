@@ -919,7 +919,7 @@ def gorseli_olustur():
                              "sonucunuzdan elde edildi. ("
         for r, n in zip(rational, total_names):
             if r != 0:
-                resimle_ilgili_not += f" %{str(round(r*100))} {n}"
+                resimle_ilgili_not += f" %{str(r*100)} {n}"
         resimle_ilgili_not += ")"
 
 def versiyon():
