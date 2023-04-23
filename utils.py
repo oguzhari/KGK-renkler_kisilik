@@ -904,7 +904,7 @@ def gorseli_olustur():
     total = total_1 + total_2 + total_3 + total_4
     total1, total2, total3, total4 = total_1/total, total_2/total, total_3/total, total_4/total
     rational = [total1, total2, total3, total4]
-    color_tone.create_gradient_image(total_names, rational, 500, 150, 'gradient.png')
+    color_tone.create_gradient_image(total_names, rational, 430, 80, 'gradient.png')
 
     if 1 in rational:
         resimle_ilgili_not = "* Resimle ilgili ufak bir not: Analiziniz sonucunda sadece bir renk çıktı. Ancak " \
@@ -914,8 +914,8 @@ def gorseli_olustur():
     else:
         resimle_ilgili_not = "* Resimle ilgili ufak bir not: Analiziniz sonucunda birkaç renk çıktı. Ancak " \
                              "bu demek değildir ki sadece birkaç renk ifade ediyorsunuz. Hayatta her şey siyah veya " \
-                             "beyaz olmadığı gibi, tek renk de değildir. Sadece birkaç renk çıksanız bile, bu " \
-                             "renklerin birçok tonu olduğunu unutmayın."
+                             "beyaz olmadığı gibi, sadece birkaç renk de değildir. Sadece birkaç renk çıksanız bile, " \
+                             "bu renklerin birçok tonu olduğunu unutmayın."
 
 
 def versiyon():
