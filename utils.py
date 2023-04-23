@@ -918,7 +918,7 @@ def gorseli_olustur():
                              "renklerin birçok tonu olduğunu unutmayın."
 
 
-def version():
+def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
                 ver 1.0.0
