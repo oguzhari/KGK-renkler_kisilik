@@ -1,5 +1,7 @@
 from utils import *
 
+st.config.set_option("theme.primaryColor", "white")
+
 css_code = """
 <style>
     .content-container {
@@ -20,3 +22,4 @@ head()
 kisisel_bilgiler()
 sorular()
 kontrol_butonu()
+version()

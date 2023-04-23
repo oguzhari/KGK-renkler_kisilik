@@ -3,6 +3,11 @@ from docx import Document
 from datetime import datetime
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
+import random
+import string
+import color_tone
+
+st.config.set_option("theme.primaryColor", "white")
 
 css_code = """
 <style>
@@ -102,6 +107,73 @@ p2 = "Çok tedirginlik duymam, çünkü nasıl olsa işler bir şekilde halolaca
 p3 = "Sorumluluğun üstümde olmasından dolayı tedirginlik duyarım."
 p4 = "Tedirginlik duyarım ve gecenin büyük bir bölümünde problemin nasıl çözüleceğiyle ilgili planlar yaparım."
 
+# Analiz Sonuçları
+sari = """
+Sizin öncelikli renk temanızın "sarı" olduğu tespit edilmiştir. Sarı renk, temelde enerjik, neşeli ve dinamik bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+
+Sosyal İlişkiler ve Popülerlik: Sarı kişilik tipi olarak, sosyal becerileriniz ve iletişim kabiliyetiniz oldukça gelişmiştir. İnsanlarla kurduğunuz ilişkilerde empati ve samimiyet ön plandadır. Bu nedenle, grup içerisinde sevilen ve takdir edilen bir birey olma eğilimindesiniz.
+
+Yenilikçilik ve Esneklik: Sarı renkli kişilikler, yaşamlarında hareketlilik ve değişiklik arayışındadırlar. Yeniliklere açık olmanız ve esnek yaklaşımınız, sizin adaptasyon sürecini başarıyla yönetebilmenize ve farklı deneyimler kazanabilmenize olanak tanır.
+
+Duygu İfadesi ve Duyarlılık: Duygusal zekanızın yüksek olması, insanlarla olan iletişiminizde duygu ve düşüncelerinizi etkili bir şekilde ifade etmenize yardımcı olur. Bu özellik, çevrenizdeki kişilerin sizinle daha derin bağlar kurmasını ve sizi daha iyi anlamasını sağlar.
+
+Girişimcilik ve Tepkisel Davranışlar: Sarı kişilik özelliklerine sahip bireyler, aktif ve girişimci bir yapıya sahiptirler. Bu durum, projelerde ve işbirliklerinde başkalarını motive edebilme ve enerji seviyelerini yüksek tutma kabiliyetinizi destekler. Ancak, tepkisel davranışlarınız kontrol altına alınmalı ve dikkatli analizler yaparak kararlar verilmelidir.
+
+Yukarıda belirtilen sarı renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
+
+Başarılar ve mutluluklar dileriz!
+"""
+
+mavi = """
+Sizin öncelikli renk temanızın "mavi" olduğu tespit edilmiştir. Mavi renk, temelde asil, ciddi ve düzenli bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+
+Düşünce Yapısı ve Planlama: Mavi kişilik tipi olarak, analitik düşünme ve planlama becerileriniz oldukça gelişmiştir. İş ve özel yaşamınızda gerçekleştirmeyi düşündüğünüz projelerde detaylı ve kapsamlı planlar yaparak başarıya ulaşma olasılığınızı artırırsınız.
+
+Disiplin ve Düzen: Yaşamınızda düzen ve disiplini önemseyen bir bireysiniz. İşlerinizi titizlikle ve zamanında yaparak, başkalarına güvenilir ve sorumluluk sahibi bir izlenim bırakırsınız. Bu özellikleriniz, iş hayatında ve sosyal ilişkilerinizde takdir edilen yönlerinizdendir.
+
+Kuralcılık ve İstikrar: Mavi renkli kişilikler, kurallara ve prosedürlere bağlı kalmayı tercih ederler. İstikrarlı ve tutarlı bir yaşam sürdürmeyi amaçlarlar. Bu yaklaşım, özellikle iş yaşamında başarı elde etmenize katkıda bulunur.
+
+İlişkisel Yaklaşım ve Mesafeli Tutum: İnsanlarla kurduğunuz ilişkilerde daha mesafeli ve ilişkisel bir tutum sergileyebilirsiniz. Bu durum, başkalarıyla daha derin bağlar kurma sürecinde daha fazla zaman ve emek harcamanız gerektiği anlamına gelebilir.
+
+Yukarıda belirtilen mavi renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
+
+Başarılar ve mutluluklar dileriz!
+"""
+
+kirmizi = """
+Sizin öncelikli renk temanızın "kırmızı" olduğu tespit edilmiştir. Kırmızı renk, temelde canlı, güçlü ve kararlı bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+
+Liderlik ve Kararlılık: Kırmızı kişilik tipi olarak, doğuştan liderlik yetenekleriniz ve kararlılık özellikleriniz bulunmaktadır. İş ve özel yaşamınızda başkalarını yönlendirebilir ve onlara ilham verebilirsiniz. Bu sayede, gruplar ve projeler için değerli bir üye olursunuz.
+
+Hedef Odaklılık ve Başarı: Yaşamınızda belirlediğiniz hedeflere ulaşmak için azimli ve kararlı bir şekilde çalışırsınız. Bu durum, başarıya giden yolda sizi daha hızlı ilerletir ve iş hayatında veya sosyal ilişkilerinizde önemli kazanımlar elde etmenize yardımcı olur.
+
+Sorumluluk ve İnisiyatif: Kırmızı renkli kişilikler, sorumluluklarını yerine getirmeyi önemseyen ve inisiyatif kullanabilen bireylerdir. İş yaşamında ve sosyal çevrenizde, problemlere çözüm getirebilme ve başkalarının güvendiği bir isim olma eğilimindesiniz.
+
+Tartışmacı ve Mücadeleci: İnsanlarla kurduğunuz ilişkilerde, düşüncelerinizi ve fikirlerinizi savunma eğiliminiz olabilir. Bu durum, bazen çatışma ve anlaşmazlıklara yol açsa da, doğru iletişim stratejileri kullanarak etkili bir uyum sağlayabilirsiniz.
+
+Yukarıda belirtilen kırmızı renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
+
+Başarılar ve mutluluklar dileriz!
+"""
+
+yesil = """
+Sizin öncelikli renk temanızın "yeşil" olduğu tespit edilmiştir. Yeşil renk, temelde rahatlatıcı, huzur verici ve uyumlu bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+
+Barışçı ve Uyumlu: Yeşil kişilik tipi olarak, insanlarla kurduğunuz ilişkilerde barışçıl ve uyumlu bir tutum sergilersiniz. Çatışmalardan kaçınarak, ortamın huzurunu ve dengesini koruma eğilimindesiniz. Bu sayede, sosyal çevrenizde sevilen ve saygı gören bir birey olursunuz.
+
+İşbirliği ve Destek: İş yaşamında ve sosyal ilişkilerinizde işbirliğine ve desteklemeye büyük önem verirsiniz. Başkalarının fikirlerini dinlemeye ve onlara yardımcı olmaya açık bir yapıya sahipsiniz. Bu özellikleriniz, grup çalışmalarında ve işbirliği gerektiren projelerde başarılı olmanıza katkı sağlar.
+
+Sevecenlik ve Empati: Yeşil renkli kişilikler, sevecen ve empati sahibi bireylerdir. İnsanlarla kurduğunuz ilişkilerde, onların duygularını ve düşüncelerini anlama ve paylaşma eğilimindesiniz. Bu durum, çevrenizdeki kişilerin sizinle daha derin bağlar kurmasını ve sizi daha iyi anlamasını sağlar.
+
+Duyarlılık ve Kişisel Yaklaşım: İnsanlarla olan iletişiminizde, duyarlılık ve kişisel yaklaşım sergileyebilirsiniz. Bu durum, başkalarıyla daha sıcak ve samimi bir ilişki kurma sürecinde olumlu etkiler yaratabilir. Ancak, gerektiğinde sınırlarınızı koruyarak dengeli bir iletişim sağlamak önemlidir.
+
+Yukarıda belirtilen yeşil renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
+
+Başarılar ve mutluluklar dileriz!
+"""
+
+resimle_ilgili_not = ""
+dosya_adi = ""
 
 # Cevapları kontrol et
 def cevaplari_kontrol_et(bir, iki, uc, dort):
@@ -136,6 +208,7 @@ value_n1, value_n2, value_n3, value_n4 = 0, 0, 0, 0
 value_o1, value_o2, value_o3, value_o4 = 0, 0, 0, 0
 value_p1, value_p2, value_p3, value_p4 = 0, 0, 0, 0
 ad_soyad, meslek, unvan, bolum, yas, cinsiyet, mail, telefon = "", "", "", "", "", "", "", ""
+erid = ""
 
 
 def head():
@@ -693,6 +766,7 @@ def sorular():
 
 
 def dosya_olustur():
+    global dosya_adi
     document = Document()
 
     section = document.sections[0]
@@ -734,26 +808,26 @@ def dosya_olustur():
 
     document.add_heading("B. Analiz Sonuçları", level=1)
 
-    dosya_adi = f"{ad_soyad.title()}.docx"
+    gorseli_olustur()
+    document.add_picture('gradient.png')
+
+    p = document.add_paragraph()
+    p.add_run("Buraya analiz gelecek.").italic = True
+
+    erid = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=5))
+
+    p = document.add_paragraph()
+    p.add_run(resimle_ilgili_not).italic = True
+
+    p = document.add_paragraph()
+    p.add_run("ERID: ").bold = True
+    p.add_run(f"{erid}").italic = True
+
+    dosya_adi = f"{ad_soyad.title()}-{erid}.docx"
     document.save(dosya_adi)
 
 
-
-
 def kontrol_butonu():
-    total_1 = int(value_a1) + int(value_b1) + int(value_c1) + int(value_d1) + int(value_e1) + int(value_f1) + \
-              int(value_g1) + int(value_h1) + int(value_i1) + int(value_j1) + int(value_k1) + int(value_m1) + \
-              int(value_n1) + int(value_o1) + int(value_p1)
-    total_2 = int(value_a2) + int(value_b2) + int(value_c2) + int(value_d2) + int(value_e2) + int(value_f2) + \
-                int(value_g2) + int(value_h2) + int(value_i2) + int(value_j2) + int(value_k2) + int(value_m2) + \
-                int(value_n2) + int(value_o2) + int(value_p2)
-    total_3 = int(value_a3) + int(value_b3) + int(value_c3) + int(value_d3) + int(value_e3) + int(value_f3) + \
-                int(value_g3) + int(value_h3) + int(value_i3) + int(value_j3) + int(value_k3) + int(value_m3) + \
-                int(value_n3) + int(value_o3) + int(value_p3)
-    total_4 = int(value_a4) + int(value_b4) + int(value_c4) + int(value_d4) + int(value_e4) + int(value_f4) + \
-                int(value_g4) + int(value_h4) + int(value_i4) + int(value_j4) + int(value_k4) + int(value_m4) + \
-                int(value_n4) + int(value_o4) + int(value_p4)
-
     if st.button("Envanteri Kaydet"):
         # ad_soyad, meslek, unvan, bolum, yas, cinsiyet, mail, telefon
         with st.empty():
@@ -766,6 +840,7 @@ def kontrol_butonu():
 
 
 def dosyayi_kaydet():
+    global dosya_adi
     gauth = GoogleAuth()
     create_cred_file()
 
@@ -773,7 +848,7 @@ def dosyayi_kaydet():
 
     drive = GoogleDrive(gauth)
     folderName = 'RenkveKelimeTesti'  # Please set the folder name.
-    file_name = f"{ad_soyad.title()}.docx"
+    file_name = dosya_adi
     folders = drive.ListFile(
         {
             'q': "title='" + folderName + "' and mimeType='application/vnd.google-apps.folder' and trashed=false"}).GetList()
@@ -810,5 +885,43 @@ def create_cred_file():
     text_file.close()
 
 
+def gorseli_olustur():
+    global resimle_ilgili_not
+    total_1 = int(value_a1) + int(value_b1) + int(value_c1) + int(value_d1) + int(value_e1) + int(value_f1) + \
+              int(value_g1) + int(value_h1) + int(value_i1) + int(value_j1) + int(value_k1) + int(value_m1) + \
+              int(value_n1) + int(value_o1) + int(value_p1)
+    total_2 = int(value_a2) + int(value_b2) + int(value_c2) + int(value_d2) + int(value_e2) + int(value_f2) + \
+              int(value_g2) + int(value_h2) + int(value_i2) + int(value_j2) + int(value_k2) + int(value_m2) + \
+              int(value_n2) + int(value_o2) + int(value_p2)
+    total_3 = int(value_a3) + int(value_b3) + int(value_c3) + int(value_d3) + int(value_e3) + int(value_f3) + \
+              int(value_g3) + int(value_h3) + int(value_i3) + int(value_j3) + int(value_k3) + int(value_m3) + \
+              int(value_n3) + int(value_o3) + int(value_p3)
+    total_4 = int(value_a4) + int(value_b4) + int(value_c4) + int(value_d4) + int(value_e4) + int(value_f4) + \
+              int(value_g4) + int(value_h4) + int(value_i4) + int(value_j4) + int(value_k4) + int(value_m4) + \
+              int(value_n4) + int(value_o4) + int(value_p4)
+
+    total_names = ['kırmızı', 'sarı', 'yeşil', 'mavi']
+    total = total_1 + total_2 + total_3 + total_4
+    total1, total2, total3, total4 = total_1/total, total_2/total, total_3/total, total_4/total
+    rational = [total1, total2, total3, total4]
+    color_tone.create_gradient_image(total_names, rational, 500, 150, 'gradient.png')
+
+    if 1 in rational:
+        resimle_ilgili_not = "* Resimle ilgili ufak bir not: Analiziniz sonucunda sadece bir renk çıktı. Ancak " \
+                             "bu demek değildir ki sadece bir renk ifade ediyorsunuz. Hayatta her şey siyah veya " \
+                             "beyaz olmadığı gibi, tek renk de değildir. Sadece bir renk çıksanız bile, bu rengin " \
+                             "birçok tonu olduğunu unutmayın."
+    else:
+        resimle_ilgili_not = "* Resimle ilgili ufak bir not: Analiziniz sonucunda birkaç renk çıktı. Ancak " \
+                             "bu demek değildir ki sadece birkaç renk ifade ediyorsunuz. Hayatta her şey siyah veya " \
+                             "beyaz olmadığı gibi, tek renk de değildir. Sadece birkaç renk çıksanız bile, bu " \
+                             "renklerin birçok tonu olduğunu unutmayın."
 
 
+def version():
+    st.caption("""
+                <p style='text-align: center;'>
+                ver 1.0.0
+                </p>
+            """, unsafe_allow_html=True
+               )
