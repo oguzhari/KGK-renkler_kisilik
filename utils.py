@@ -922,10 +922,12 @@ def gorseli_olustur():
                 resimle_ilgili_not += f" %{str(r*100)} {n}"
         resimle_ilgili_not += ")"
 
+
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
                 ver 1.0.0
+                build 24042023.1531
                 </p>
             """, unsafe_allow_html=True
                )
