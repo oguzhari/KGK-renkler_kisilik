@@ -926,10 +926,7 @@ def gorseli_olustur():
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0
-                </p>
-                <p style='text-align: center;'>
-                build 24042023.1531
+                ver 1.0.0 <br/>build 24042023.1531
                 </p>
             """, unsafe_allow_html=True
                )
