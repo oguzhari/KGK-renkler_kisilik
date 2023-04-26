@@ -109,85 +109,106 @@ p4 = "Tedirginlik duyarım ve gecenin büyük bir bölümünde problemin nasıl 
 
 # Analiz Sonuçları
 sari = """
-Sizin öncelikli renk temanızın "sarı" olduğu tespit edilmiştir. Sarı renk, temelde enerjik, neşeli ve dinamik bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+Sarı kişilikli bireyler, enerjik, neşeli ve sosyal olarak tanımlanır. Bu kişilik tipine sahip olanlar, genellikle eğlenceli ve cana yakındır ve insanlarla kolayca iletişim kurarlar. Girişken ve hareketli olmaları, çevrelerindeki insanlar üzerinde pozitif bir etki yaratır. El, kol ve mimiklerini etkili bir şekilde kullanarak, güçlü bir iletişim kurarlar. Enerjilerini insanlardan alırlar ve konuşmayı çok severler.
 
-Sosyal İlişkiler ve Popülerlik: Sarı kişilik tipi olarak, sosyal becerileriniz ve iletişim kabiliyetiniz oldukça gelişmiştir. İnsanlarla kurduğunuz ilişkilerde empati ve samimiyet ön plandadır. Bu nedenle, grup içerisinde sevilen ve takdir edilen bir birey olma eğilimindesiniz.
+Sarı kişilikli bireylerin hızlı düşünme ve hazırcevap olma becerileri vardır. İkna kabiliyetleri yüksek olduğu için, fikirlerini başkalarına kolayca aktarabilirler. Sorunlara ilginç ve yaratıcı çözümler bulma konusunda yeteneklidirler ve enerjik tutumlarıyla mutluluk ve neşe yayabilirler. Meraklı ve çocuk ruhlu olmaları, sürekli yeni fikirler üretmelerine ve yeni deneyimler yaşamalarına olanak tanır. İnsanlarla kolayca kaynaşarak, hızlı ve samimi arkadaşlıklar kurabilirler.
 
-Yenilikçilik ve Esneklik: Sarı renkli kişilikler, yaşamlarında hareketlilik ve değişiklik arayışındadırlar. Yeniliklere açık olmanız ve esnek yaklaşımınız, sizin adaptasyon sürecini başarıyla yönetebilmenize ve farklı deneyimler kazanabilmenize olanak tanır.
+Ancak sarı kişilikli bireylerin de negatif yönleri bulunmaktadır. Çalışma alanları dağınık olabilir ve dikkatsiz davranarak, sık sık bir şeyleri döküp saçabilirler. Unutkan olabilirler ve işe odaklanmada zorluk yaşayabilirler. Ayrıntılar üzerine düşünmeyi sevmezler ve genellikle birine ihtiyaç duyarlar. Plan ve program yapmazlar, spontane yaşarlar. Olayları anlatırken abartma eğiliminde olabilirler. İşi başlatır ama sonunu getirmez ve işlerini çoğu zaman ertelerler.
 
-Duygu İfadesi ve Duyarlılık: Duygusal zekanızın yüksek olması, insanlarla olan iletişiminizde duygu ve düşüncelerinizi etkili bir şekilde ifade etmenize yardımcı olur. Bu özellik, çevrenizdeki kişilerin sizinle daha derin bağlar kurmasını ve sizi daha iyi anlamasını sağlar.
-
-Girişimcilik ve Tepkisel Davranışlar: Sarı kişilik özelliklerine sahip bireyler, aktif ve girişimci bir yapıya sahiptirler. Bu durum, projelerde ve işbirliklerinde başkalarını motive edebilme ve enerji seviyelerini yüksek tutma kabiliyetinizi destekler. Ancak, tepkisel davranışlarınız kontrol altına alınmalı ve dikkatli analizler yaparak kararlar verilmelidir.
-
-Yukarıda belirtilen sarı renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
-
-Başarılar ve mutluluklar dileriz!
+Sarı kişilikli bireylerin başarılı olmaları için, daha düzenli ve planlı olmaya özen göstermeleri gerekmektedir. Ayrıca, işlerini tamamlamak ve ertelememek için önceliklerini belirlemeye ve zaman yönetimi becerilerini geliştirmeye ihtiyaç duyarlar. Enerjilerini ve sosyal becerilerini, ekip çalışmalarında ve insan ilişkilerinde olumlu bir şekilde kullanarak, başarılı ve mutlu olmaları mümkündür.
 """
 
 mavi = """
-Sizin öncelikli renk temanızın "mavi" olduğu tespit edilmiştir. Mavi renk, temelde asil, ciddi ve düzenli bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+Mavi kişilik özellikleri, ciddi, ağırbaşlı ve düşünceli bireyleri tanımlar. Bu kişilik tipine sahip olanlar, mükemmeliyetçidir ve detaylara büyük önem verirler. İş hayatında düzenli, planlı ve programlı hareket ederler. Hassas ve derin düşünceli olmalarıyla, riskleri önceden görebilme ve olası sorunlara karşı hazırlıklı olma becerilerine sahiptirler. İdealist olan bu bireyler, kurallara ve prensiplere büyük önem verirler. Araştırmacı ve meraklı bir yapıya sahip oldukları için, sürekli olarak yeni bilgiler edinme ve öğrenme süreçlerinde etkin rol alırlar.
 
-Düşünce Yapısı ve Planlama: Mavi kişilik tipi olarak, analitik düşünme ve planlama becerileriniz oldukça gelişmiştir. İş ve özel yaşamınızda gerçekleştirmeyi düşündüğünüz projelerde detaylı ve kapsamlı planlar yaparak başarıya ulaşma olasılığınızı artırırsınız.
+Mavi kişilikli bireylerin bazı negatif yönleri de bulunmaktadır. Detaylara fazla takılma ve karar vermekte zorlanma gibi özellikler bunlardandır. Hata yapmaktan çekinirler ve hayata karamsar bir bakış açısıyla yaklaşabilirler. Aşırı kuralcı olma ve depresyona girebilme eğilimi, yaşamlarını olumsuz yönde etkileyebilir. Olayların olumsuz yönlerini görmeye eğilimli oldukları için, kaygı düzeyleri yüksek olabilir. Mavi kişilikli bireyleri motive etmek için, işin ayrıntılarıyla anlatmak ve planlı, programlı bir şekilde işin yürütüleceğini vurgulamak önemlidir.
 
-Disiplin ve Düzen: Yaşamınızda düzen ve disiplini önemseyen bir bireysiniz. İşlerinizi titizlikle ve zamanında yaparak, başkalarına güvenilir ve sorumluluk sahibi bir izlenim bırakırsınız. Bu özellikleriniz, iş hayatında ve sosyal ilişkilerinizde takdir edilen yönlerinizdendir.
-
-Kuralcılık ve İstikrar: Mavi renkli kişilikler, kurallara ve prosedürlere bağlı kalmayı tercih ederler. İstikrarlı ve tutarlı bir yaşam sürdürmeyi amaçlarlar. Bu yaklaşım, özellikle iş yaşamında başarı elde etmenize katkıda bulunur.
-
-İlişkisel Yaklaşım ve Mesafeli Tutum: İnsanlarla kurduğunuz ilişkilerde daha mesafeli ve ilişkisel bir tutum sergileyebilirsiniz. Bu durum, başkalarıyla daha derin bağlar kurma sürecinde daha fazla zaman ve emek harcamanız gerektiği anlamına gelebilir.
-
-Yukarıda belirtilen mavi renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
-
-Başarılar ve mutluluklar dileriz!
+Mavi kişilikli bireylerin, özellikle ekip çalışmalarında dikkat etmesi gereken noktalar bulunmaktadır. İşbirliğine daha açık olmaları ve diğer kişilik tipleriyle daha uyumlu çalışabilmeleri için, daha esnek ve adaptasyon yeteneklerini geliştirmeleri gerekmektedir. Ayrıca, detaylarda fazla takılmamaya ve daha hızlı karar alabilme becerisine odaklanmaları önemlidir. Bu sayede, mavi kişilikli bireyler, ekiplerinde daha etkin ve başarılı bir rol üstlenebilirler.
 """
 
 kirmizi = """
-Sizin öncelikli renk temanızın "kırmızı" olduğu tespit edilmiştir. Kırmızı renk, temelde canlı, güçlü ve kararlı bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+Kırmızı kişilik özellikleri, enerjik, dışa dönük ve güçlü karakterlere sahip bireyleri tanımlar. Bu kişilik tipinde olan bireyler, doğal liderler olarak görülür ve takımlarında öncü rol üstlenmeye meyillidirler. İş hayatında sonuç odaklıdırlar ve kararlılıkla hedeflerine yönelirler. Bağımsız hareket etmeye yatkın olan bu kişiler, rekabeti sever ve zaman yönetimi konusunda başarılıdırlar. Hedeflerini belirleyip, gerçekleştirme konusunda istekli ve hırslıdırlar. Sorunlara karşı çözüm odaklı yaklaşımları ve analitik düşünme yetenekleri sayesinde etkili ve başarılı sonuçlar elde edebilirler.
 
-Liderlik ve Kararlılık: Kırmızı kişilik tipi olarak, doğuştan liderlik yetenekleriniz ve kararlılık özellikleriniz bulunmaktadır. İş ve özel yaşamınızda başkalarını yönlendirebilir ve onlara ilham verebilirsiniz. Bu sayede, gruplar ve projeler için değerli bir üye olursunuz.
+Ancak kırmızı kişilik özelliklerine sahip bireylerin bazı negatif yönleri de bulunmaktadır. Bunlar arasında hep haklı olduklarını düşünme, ani karar alma ve değerlendirme yapamama gibi özellikler bulunur. Eleştirilmekten hoşlanmazlar ve yardım almaya açık olmayabilirler. Dik başlı ve inatçı olmaları nedeniyle, iş birliği ve uyum sağlamada zorluk yaşayabilirler. Kırmızı kişilikli bireyleri motive etmek için, işin sonucu ile ilgili sözler söylemek etkili olabilir. Başarılarını ve sonuç odaklı yaklaşımlarını takdir etmek ve onların liderlik özelliklerini ön plana çıkarmak da önemlidir.
 
-Hedef Odaklılık ve Başarı: Yaşamınızda belirlediğiniz hedeflere ulaşmak için azimli ve kararlı bir şekilde çalışırsınız. Bu durum, başarıya giden yolda sizi daha hızlı ilerletir ve iş hayatında veya sosyal ilişkilerinizde önemli kazanımlar elde etmenize yardımcı olur.
-
-Sorumluluk ve İnisiyatif: Kırmızı renkli kişilikler, sorumluluklarını yerine getirmeyi önemseyen ve inisiyatif kullanabilen bireylerdir. İş yaşamında ve sosyal çevrenizde, problemlere çözüm getirebilme ve başkalarının güvendiği bir isim olma eğilimindesiniz.
-
-Tartışmacı ve Mücadeleci: İnsanlarla kurduğunuz ilişkilerde, düşüncelerinizi ve fikirlerinizi savunma eğiliminiz olabilir. Bu durum, bazen çatışma ve anlaşmazlıklara yol açsa da, doğru iletişim stratejileri kullanarak etkili bir uyum sağlayabilirsiniz.
-
-Yukarıda belirtilen kırmızı renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
-
-Başarılar ve mutluluklar dileriz!
+Kırmızı kişilikli bireylerin özellikle ekip çalışmalarında dikkat etmesi gereken noktalar bulunmaktadır. İşbirliğine daha açık olmaları ve diğer kişilik tipleriyle daha uyumlu çalışabilmeleri için, eleştiriye daha açık olmaları ve başkalarının fikirlerine değer verme becerilerini geliştirmeleri gerekmektedir. Bu sayede, kırmızı kişilikli bireyler, ekiplerinde daha etkin ve başarılı liderler olabilirler.
 """
 
 yesil = """
-Sizin öncelikli renk temanızın "yeşil" olduğu tespit edilmiştir. Yeşil renk, temelde rahatlatıcı, huzur verici ve uyumlu bir kişiliği temsil eder. İşte sizinle ilgili daha detaylı bir analiz:
+Yeşil kişilik özellikleri, genellikle barışçıl, sakin ve uyumlu bireylerin davranışlarını tanımlar. Bu kişilik tipine sahip olanlar, kendileriyle ve çevreleriyle barışık yaşarlar ve soğukkanlı bir tutum sergilerler. Çatışma ve anlaşmazlıklardan kaçınır, doğal arabulucu rollerini üstlenerek, ortamın dengesini sağlamaya çalışırlar. Sabırlı, uysal ve güvenilir oldukları için, insanlarla iyi ilişkiler kurar ve çevrelerinde sevilen bireyler olurlar. Hislerini iyi saklar ve genellikle duygularını ifade etmekte zorlanırlar.
 
-Barışçı ve Uyumlu: Yeşil kişilik tipi olarak, insanlarla kurduğunuz ilişkilerde barışçıl ve uyumlu bir tutum sergilersiniz. Çatışmalardan kaçınarak, ortamın huzurunu ve dengesini koruma eğilimindesiniz. Bu sayede, sosyal çevrenizde sevilen ve saygı gören bir birey olursunuz.
+Yeşil kişilikli bireylerin negatif yönleri de bulunmaktadır. Çekingendirler ve düşük enerjili olabilirler. Sorumluluk almaktan çekinir ve hayır demekte zorlanırlar. Karar verme süreçlerinde zorlanabilir ve duygularını yansıtmama eğilimi gösterebilirler. İşlerini ertelemeye meyillidirler ve değişime zor uyum sağlarlar. Monoton ve düzenli yaşamlarını sürdürmeyi tercih ederler.
 
-İşbirliği ve Destek: İş yaşamında ve sosyal ilişkilerinizde işbirliğine ve desteklemeye büyük önem verirsiniz. Başkalarının fikirlerini dinlemeye ve onlara yardımcı olmaya açık bir yapıya sahipsiniz. Bu özellikleriniz, grup çalışmalarında ve işbirliği gerektiren projelerde başarılı olmanıza katkı sağlar.
-
-Sevecenlik ve Empati: Yeşil renkli kişilikler, sevecen ve empati sahibi bireylerdir. İnsanlarla kurduğunuz ilişkilerde, onların duygularını ve düşüncelerini anlama ve paylaşma eğilimindesiniz. Bu durum, çevrenizdeki kişilerin sizinle daha derin bağlar kurmasını ve sizi daha iyi anlamasını sağlar.
-
-Duyarlılık ve Kişisel Yaklaşım: İnsanlarla olan iletişiminizde, duyarlılık ve kişisel yaklaşım sergileyebilirsiniz. Bu durum, başkalarıyla daha sıcak ve samimi bir ilişki kurma sürecinde olumlu etkiler yaratabilir. Ancak, gerektiğinde sınırlarınızı koruyarak dengeli bir iletişim sağlamak önemlidir.
-
-Yukarıda belirtilen yeşil renkli kişilik özelliklerinizi göz önünde bulundurarak, sosyal ve iş hayatınızdaki başarınızı artırabilir ve insanlarla daha uyumlu bir şekilde iletişim kurabilirsiniz. Kendi özelliklerinizi tanıyarak, potansiyelinizi en iyi şekilde kullanmaya yönelik stratejiler geliştirmek önemlidir.
-
-Başarılar ve mutluluklar dileriz!
+Yeşil kişilikli bireylerin çalışma ortamında dikkat etmeleri gereken bazı noktalar bulunmaktadır. Daha fazla sorumluluk alarak ve karar verme süreçlerinde daha etkin olmaları, kişisel ve profesyonel gelişimlerine katkı sağlayacaktır. İnsanlarla iyi ilişkiler kurma becerilerini kullanarak, ekip çalışmalarında daha etkin ve başarılı olabilirler. Duygularını daha açık bir şekilde ifade etmeye çalışarak, daha iyi anlaşılmalarını ve gereksinimlerini daha net ortaya koymalarını sağlar. Bu sayede, yeşil kişilikli bireyler hem kendi yaşamlarında hem de çalışma ortamlarında daha başarılı ve mutlu olabilirler.
 """
 
-resimle_ilgili_not = ""
-dosya_adi = ""
+kirmizi_sari = """
+Kırmızı ve sarı kişilik kombinasyonu hem girişken hem de enerjik bir yapıya sahip bireyleri ifade eder. Bu kişilik türü, cesur, hareketli ve iyimserdir ve motivasyonları kolaylıkla bozulmaz. İki renk de atak ve güçlü olduğundan, bu kombinasyona sahip bireyler etkileyici liderlik becerilerine sahiptir.
 
-# Cevapları kontrol et
-def cevaplari_kontrol_et(bir, iki, uc, dort):
-    bir, iki, uc, dort = int(bir), int(iki), int(uc), int(dort)
-    if bir + iki + uc + dort == 3:
-        pass
-    elif bir + iki + uc + dort == 2:
-        pass
-    elif bir + iki + uc + dort == 0:
-        pass
-    else:
-        st.error("Soruları cevaplama konusunda bir sorun var. "
-                 "Cevaplarda en az bir adet 2 olmalıdır. "
-                 "Bunun yanında en fazla bir adet 1 olabilir.")
+Kırmızı-sarı kişilikli bireyler, genellikle çelişki yaşamazlar ve sorunlara hızlı ve yaratıcı çözümler bulma konusunda yeteneklidirler. Buldukları sıra dışı çözümler, çevrelerindeki insanları şaşırtabilir ve etkileyebilir. Bu bireyler, güç odaklı hareket etme özelliğine sahipken, aynı zamanda eğlenmeyi de bilirler.
+
+Ancak, bu tür bir kişilik kombinasyonuyla bazı zorluklar da yaşanabilir. Hiperaktif ve aşırı enerjik olmaları nedeniyle, bu bireylerin riskleri göz önünde bulundurarak hareket etmeleri ve desteklenmeleri önemlidir. Ayrıca, bu gruptaki bireylerin zaman zaman dikkat dağıtıcı ve düşüncesiz davranabileceği unutulmamalıdır.
+
+Kırmızı-sarı kişilikli bireylerin başarılı olabilmeleri için, enerjilerini ve güçlerini doğru şekilde kullanmaları ve uygun dengeyi sağlamaları gerekmektedir. Özellikle ekip çalışmalarında ve liderlik pozisyonlarında, bu kişilik kombinasyonuyla sahip bireyler, etkili ve başarılı sonuçlar elde edebilirler. İş ve sosyal yaşamlarında, bu güçlü ve enerjik kişiliklerin, başkalarıyla uyum içinde çalışarak harika şeyler başarmaları mümkündür.
+"""
+
+mavi_kirmizi = """
+Mavi ve kırmızı kişilik kombinasyonu, iş odaklı ve etkili bir karışımı temsil eder. Bu bireyler, kırmızının güçlü, kararlı ve sonuç odaklı yönleri ile mavinin planlı, programlı ve düzenli yönlerini birleştirir. Bu özellikler, bu tür kişiliklere sahip olan bireylerin işlerini önemseyerek, doğru ve hızlı bir şekilde sonuç almaya odaklanmalarına yardımcı olur.
+
+Mavi-kırmızı kişilikli bireyler, sıklıkla iş ve sorumluluklarını çok ciddiye alır ve başarıları için sıkı çalışırlar. İki iş odaklı kişiliğin birleşmesi, bireyin zaman zaman yorulmasına ve stresli hissetmesine neden olabilir. Bununla birlikte, bu kişilik kombinasyonuna sahip olanlar genellikle hedeflerine ulaşmak için büyük çaba gösterir ve başarılı olma şansları yüksektir.
+
+Ancak, bu kombinasyonda bazı zorluklar da bulunmaktadır. Özellikle, kırmızı ve mavi arasındaki dengeyi sağlamak ve her iki tarafın da güçlü yönlerini kullanmak önemlidir. Kırmızı, hızlı ve etkili kararlar almayı isterken, mavi daha planlı ve düşünceli hareket etmeyi tercih eder. Bu nedenle, mavi-kırmızı kişilikli bireyler, uyumlu bir şekilde çalışabilmek için bu iki yaklaşımı dengede tutmaya çalışmalıdır.
+
+İş yaşamında ve kişisel ilişkilerinde, mavi-kırmızı kişilikli bireyler, kararlılık, düzen ve planlama becerileri sayesinde başarılı ve güvenilir olarak görülürler. İş birliği ve ekip çalışması gerektiren ortamlarda, bu kişilik kombinasyonuna sahip olanlar, etkili ve uyumlu bir şekilde çalışarak başarıya ulaşabilirler.
+"""
+
+yesil_sari = """
+Yeşil ve sarı kişilik kombinasyonu, insan odaklı ve sosyal bir karışımı temsil eder. Bu bireyler, yeşilin empatik, barışçıl ve iş birliğine açık yönleri ile sarının enerjik, girişken ve eğlenceli yönlerini birleştirir. Bu özellikler, yeşil-sarı kişilikli bireylerin insanlarla kolayca iletişim kurmalarını ve sosyal ortamlarda sevilen, popüler bireyler olmalarını sağlar.
+
+Yeşil-sarı kişilikli bireyler, sosyal ilişkilerinde başarılıdırlar ve genellikle insanlarla iyi anlaşır, hoş vakit geçirirler. İkna kabiliyetleri yüksek olduğu için, başkalarını kendi düşüncelerine ve fikirlerine çekmekte başarılı olurlar. Aynı zamanda, neşeli ve enerjik yapılarıyla ortamları canlandırabilir ve insanların moralini yükseltebilirler.
+
+Ancak, bu kişilik kombinasyonunun dezavantajları da bulunmaktadır. Özellikle, yeşil ve sarı arasındaki dengeyi sağlamak ve her iki tarafın da güçlü yönlerini kullanmak önemlidir. Yeşil-sarı kişilikli bireyler, işleriyle ilgili olarak daha fazla odaklanma ve disipline ihtiyaç duyabilirler. İletişim odaklı oldukları için, zaman zaman işlerine konsantre olmakta ve önceliklerini belirlemekte zorlanabilirler.
+
+İş yaşamında ve kişisel ilişkilerinde, yeşil-sarı kişilikli bireyler, insanlarla kurdukları güçlü bağlar ve empati yetenekleri sayesinde başarılı ve güvenilir olarak görülürler. İş birliği ve ekip çalışması gerektiren ortamlarda, bu kişilik kombinasyonuna sahip olanlar, insan ilişkilerini kullanarak etkili ve uyumlu bir şekilde çalışarak başarıya ulaşabilirler.
+"""
+
+mavi_yesil = """
+Mavi ve yeşil kişilik kombinasyonu, temkinli ve içe dönük bir karışımı temsil eder. Bu bireyler, mavinin düzenli, planlı ve ciddi yönleri ile yeşilin barışçıl, sabırlı ve iş birliğine açık yönlerini birleştirir. Bu özellikler, mavi-yeşil kişilikli bireylerin sorumluluklarını titizlikle yerine getirmelerini ve dikkatli, düşünceli kararlar alarak hareket etmelerini sağlar.
+
+Mavi-yeşil kişilikli bireyler, iş yaşamında başarılı olma potansiyeline sahiptirler. Detaylara dikkat etme ve planlama yetenekleri, onların projeleri başarıyla tamamlamalarına yardımcı olur. Aynı zamanda, yeşil tarafının getirdiği iş birliği ve uyum becerileri sayesinde, ekip çalışmasına uyum sağlayarak başkalarıyla verimli bir şekilde çalışabilirler.
+
+Ancak, bu kişilik kombinasyonunun bazı zorlukları da vardır. Özellikle, mavi ve yeşil arasındaki dengeyi sağlamak önemlidir. Mavi-yeşil kişilikli bireyler, içe dönük yapıları nedeniyle sosyal ortamlarda zorlanabilir ve daha fazla iletişim becerisi geliştirmeye ihtiyaç duyabilirler. Ayrıca, karar verme süreçlerinde, mavi tarafının aşırı kuralcı ve analizci yaklaşımı ile yeşil tarafının riskten kaçınma eğilimi arasında denge kurmak önemlidir.
+
+İş yaşamında ve kişisel ilişkilerinde, mavi-yeşil kişilikli bireyler, güvenilir, sadık ve destekleyici olarak görülürler. Başkalarına karşı anlayışlı ve empatik olma eğilimindedirler ve bu özellikleri sayesinde, dostluklar ve profesyonel ilişkiler kurarak başarıya ulaşabilirler.
+"""
+
+kirmizi_yesil = """
+Kırmızı ve yeşil kişilik kombinasyonu, zıt karakter özelliklerine sahip renklerin bir araya gelmesiyle oluşan bir karışımdır. Kırmızı tarafı enerjik, dışa dönük, kararlı ve sonuç odaklıyken, yeşil tarafı daha içe dönük, kararsız ve risk almaktan çekinen yönleri ile öne çıkar. Bu kişilik karışımına sahip bireyler, hayatlarında sürekli iniş çıkışlar yaşayabilirler ve zaman zaman çelişkili davranışlar sergileyebilirler.
+
+Kırmızı-yeşil kişilikli bireylerin güçlü yönleri arasında, kırmızının hızlı karar alma ve harekete geçme kabiliyeti ile yeşilin empati ve iş birliği becerileri bulunur. Bu özellikler sayesinde, bu bireyler hem liderlik hem de takım çalışması rollerinde başarılı olabilirler. Ayrıca, çeviklik ve uyum yetenekleri, değişen durumlara hızla uyum sağlamalarına yardımcı olur.
+
+Ancak, bu kişilik kombinasyonunun bazı zorlukları da vardır. Özellikle, kırmızı ve yeşil arasındaki dengeyi sağlamak önemlidir. Kırmızı-yeşil kişilikli bireyler, bir yandan aldıkları kararları uygulamak isterken, diğer yandan bu kararları ertelemek isteyebilirler. Bu nedenle, bu bireyler için kararlılık ve istikrarı sağlamak zaman zaman zor olabilir.
+
+İş yaşamında ve kişisel ilişkilerinde, kırmızı-yeşil kişilikli bireyler, güçlü iletişim becerileri ve sosyal yatkınlıkları sayesinde başkalarıyla kolaylıkla bağlantı kurabilirler. Fakat aynı zamanda, daha dengeli bir yaşam tarzı geliştirmek ve tutarlı davranışlar sergilemek için kendi içlerindeki çelişkilerle başa çıkmaları gerekebilir. Bu dengeyi sağlamaları durumunda hem iş hem de özel yaşamlarında başarı ve mutluluk yakalayabilirler.
+"""
+
+sari_mavi = """
+Sarı ve mavi kişilik kombinasyonu, zıt karakter özelliklerine sahip renklerin bir araya gelmesiyle oluşan ilginç ve çelişkili bir karışımdır. Sarı tarafı eğlenceli, düzensiz, coşkulu ve enerjikken, mavi tarafı düzenli, planlı, ciddi ve detaylara önem veren yönleri ile öne çıkar. Bu kişilik karışımına sahip bireyler, hayatlarında zaman zaman dengesiz ve uyumsuz davranışlar sergileyebilirler.
+
+Sarı-mavi kişilikli bireylerin güçlü yönleri arasında, sarının yaratıcılık ve iletişim becerileri ile mavinin analitik düşünme ve planlama kabiliyetleri bulunur. Bu özellikler sayesinde, bu bireyler hem yenilikçi fikirler üretebilir hem de bu fikirleri gerçekleştirmek için gerekli stratejileri geliştirebilirler. Ayrıca, sarı-mavi kişilikli bireyler, enerjik ve sosyal yönleri sayesinde insanlarla kolaylıkla iletişim kurabilir ve başkalarını etkileyebilirler.
+
+Ancak, bu kişilik kombinasyonunun bazı zorlukları da vardır. Özellikle, sarı ve mavi arasındaki dengeyi sağlamak önemlidir. Sarı-mavi kişilikli bireyler, bir yandan eğlenceli ve spontane yaşamak isterken, diğer yandan düzenli ve planlı bir yaşam sürdürmek isteyebilirler. Bu nedenle, bu bireyler için yaşamlarında uyum ve dengeyi sağlamak zaman zaman zor olabilir.
+
+İş yaşamında ve kişisel ilişkilerinde, sarı-mavi kişilikli bireyler, çelişkili doğalarına rağmen başarılı olabilirler. Bunun için, kendi içlerindeki zıt yönleri dengelemeyi öğrenmeleri ve her durumda en uygun özelliklerini kullanmayı başarmaları gerekmektedir. Bu dengeyi sağlamaları durumunda hem iş hem de özel yaşamlarında başarı ve mutluluk yakalayabilirler.
+"""
+
+nihai_sonuc_dict = {'kirmizi': 'Kırmızı', 'yesil': 'Yeşil', 'sari': 'Sarı', 'mavi': 'Mavi',
+                    'kirmizi_sari': 'Kırmızı-Sarı', 'mavi_kirmizi': 'Mavi-Kırmızı', 'yesil_sari': 'Yeşil-Sarı',
+                    'mavi_yesil': 'Mavi-Yeşil', 'kirmizi_yesil': 'Kırmızı-Yeşil', 'sari_mavi': 'Sarı-Mavi'}
+
+nihai_sonuc_aciklama_dict = {'kirmizi': kirmizi, 'yesil': yesil, 'sari': sari, 'mavi': mavi,
+                             'kirmizi_sari': kirmizi_sari, 'mavi_kirmizi': mavi_kirmizi, 'yesil_sari': yesil_sari,
+                             'mavi_yesil': mavi_yesil, 'kirmizi_yesil': kirmizi_yesil, 'sari_mavi': sari_mavi}
 
 
 # Global değerler.
@@ -209,6 +230,25 @@ value_o1, value_o2, value_o3, value_o4 = 0, 0, 0, 0
 value_p1, value_p2, value_p3, value_p4 = 0, 0, 0, 0
 ad_soyad, meslek, unvan, bolum, yas, cinsiyet, mail, telefon = "", "", "", "", "", "", "", ""
 erid = ""
+resimle_ilgili_not = ""
+dosya_adi = ""
+nihai_sonuc = ""
+nihai_sonuc_aciklama = ""
+
+
+# Cevapları kontrol et
+def cevaplari_kontrol_et(bir, iki, uc, dort):
+    bir, iki, uc, dort = int(bir), int(iki), int(uc), int(dort)
+    if bir + iki + uc + dort == 3:
+        pass
+    elif bir + iki + uc + dort == 2:
+        pass
+    elif bir + iki + uc + dort == 0:
+        pass
+    else:
+        st.error("Soruları cevaplama konusunda bir sorun var. "
+                 "Cevaplarda en az bir adet 2 olmalıdır. "
+                 "Bunun yanında en fazla bir adet 1 olabilir.")
 
 
 def head():
@@ -811,8 +851,13 @@ def dosya_olustur():
     gorseli_olustur()
     document.add_picture('gradient.png')
 
+    nihai_karar()
     p = document.add_paragraph()
-    p.add_run("Buraya analiz gelecek.").italic = True
+    p.add_run("Renginiz: ").bold = True
+    p.add_run(nihai_sonuc).italic = True
+
+    p = document.add_paragraph()
+    p.add_run(nihai_sonuc_aciklama)
 
     erid = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=5))
 
@@ -860,8 +905,8 @@ def dosyayi_kaydet():
 
 
 def create_cred_file():
-    cred_str = '{"access_token": "' + st.secrets["access_token"] +\
-               '", "client_id": "' + st.secrets["client_id"] +\
+    cred_str = '{"access_token": "' + st.secrets["access_token"] + \
+               '", "client_id": "' + st.secrets["client_id"] + \
                '", "client_secret": "' + st.secrets["client_secret"] + \
                '", "refresh_token": "' + st.secrets["refresh_token"] + \
                '", "token_expiry": "' + st.secrets["token_expiry"] + \
@@ -902,9 +947,12 @@ def gorseli_olustur():
 
     total_names = ['kırmızı', 'sarı', 'yeşil', 'mavi']
     total = total_1 + total_2 + total_3 + total_4
-    total1, total2, total3, total4 = total_1/total, total_2/total, total_3/total, total_4/total
+    total1, total2, total3, total4 = total_1 / total, total_2 / total, total_3 / total, total_4 / total
     rational = [total1, total2, total3, total4]
     color_tone.create_gradient_image(total_names, rational, 430, 80, 'gradient.png')
+
+    color_distribution = zip(total_names, rational)
+    color_distribution = sorted(color_distribution, key=lambda x: x[1], reverse=True)
 
     if 1 in rational:
         resimle_ilgili_not = "* Resimle ilgili ufak bir not: Analiziniz sonucunda sadece bir renk çıktı. Ancak " \
@@ -915,18 +963,80 @@ def gorseli_olustur():
         resimle_ilgili_not = "* Resimle ilgili ufak bir not: Analiziniz sonucunda birkaç renk çıktı. Ancak " \
                              "bu demek değildir ki sadece birkaç renk ifade ediyorsunuz. Hayatta her şey siyah veya " \
                              "beyaz olmadığı gibi, sadece birkaç renk de değildir. Sadece birkaç renk çıksanız bile, " \
-                             "bu renklerin birçok tonu olduğunu unutmayın. Bu görsel için toplam dağılımın envanter " \
-                             "sonucunuzdan elde edildi. ("
-        for r, n in zip(rational, total_names):
-            if r != 0:
-                resimle_ilgili_not += f" %{r*100:.2f} {n}"
+                             "bu renklerin birçok tonu olduğunu unutmayın. Bu görsel tamamen envanter " \
+                             "sonucunuzdan elde edildi. Verdiğiniz cevaplar dolayısıyla tamamen size özeldir. ("
+
+        for k in color_distribution:
+            if k[1] != 0:
+                resimle_ilgili_not += f" %{k[1] * 100:.2f} {k[0]}"
         resimle_ilgili_not += ")"
+
+
+def nihai_karar():
+    global nihai_sonuc, nihai_sonuc_aciklama
+
+    total_1 = int(value_a1) + int(value_b1) + int(value_c1) + int(value_d1) + int(value_e1) + int(value_f1) + \
+              int(value_g1) + int(value_h1) + int(value_i1) + int(value_j1) + int(value_k1) + int(value_m1) + \
+              int(value_n1) + int(value_o1) + int(value_p1)
+    total_2 = int(value_a2) + int(value_b2) + int(value_c2) + int(value_d2) + int(value_e2) + int(value_f2) + \
+              int(value_g2) + int(value_h2) + int(value_i2) + int(value_j2) + int(value_k2) + int(value_m2) + \
+              int(value_n2) + int(value_o2) + int(value_p2)
+    total_3 = int(value_a3) + int(value_b3) + int(value_c3) + int(value_d3) + int(value_e3) + int(value_f3) + \
+              int(value_g3) + int(value_h3) + int(value_i3) + int(value_j3) + int(value_k3) + int(value_m3) + \
+              int(value_n3) + int(value_o3) + int(value_p3)
+    total_4 = int(value_a4) + int(value_b4) + int(value_c4) + int(value_d4) + int(value_e4) + int(value_f4) + \
+              int(value_g4) + int(value_h4) + int(value_i4) + int(value_j4) + int(value_k4) + int(value_m4) + \
+              int(value_n4) + int(value_o4) + int(value_p4)
+
+    total_names = ['kirmizi', 'sari', 'yesil', 'mavi']
+    total = total_1 + total_2 + total_3 + total_4
+    total1, total2, total3, total4 = total_1 / total, total_2 / total, total_3 / total, total_4 / total
+    rational = [total1, total2, total3, total4]
+    color_distribution = zip(total_names, rational)
+    color_distribution = sorted(color_distribution, key=lambda x: x[1], reverse=True)
+    if round(color_distribution[0][1] * 10) / 10 >= 0.7:
+        nihai_sonuc = nihai_sonuc_dict[color_distribution[0][0]]
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict[color_distribution[0][0]]
+
+    elif (color_distribution[0][0] == 'kirmizi' and color_distribution[1][0] == 'sari') or \
+            (color_distribution[0][0] == 'sari' and color_distribution[1][0] == 'kirmizi'):
+        nihai_sonuc = nihai_sonuc_dict['kirmizi_sari']
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['kirmizi_sari']
+
+    elif (color_distribution[0][0] == 'mavi' and color_distribution[1][0] == 'kirmizi') or \
+            (color_distribution[0][0] == 'kirmizi' and color_distribution[1][0] == 'mavi'):
+        nihai_sonuc = nihai_sonuc_dict['mavi_kirmizi']
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['kirmizi_yesil']
+
+    elif (color_distribution[0][0] == 'yesil' and color_distribution[1][0] == 'sari') or \
+            (color_distribution[0][0] == 'sari' and color_distribution[1][0] == 'yesil'):
+        nihai_sonuc = nihai_sonuc_dict['yesil_sari']
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['yesil_sari']
+
+    elif (color_distribution[0][0] == 'mavi' and color_distribution[1][0] == 'yesil') or \
+            (color_distribution[0][0] == 'yesil' and color_distribution[1][0] == 'mavi'):
+        nihai_sonuc = nihai_sonuc_dict['mavi_yesil']
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['mavi_yesil']
+
+    elif (color_distribution[0][0] == 'kirmizi' and color_distribution[1][0] == 'yesil') or \
+            (color_distribution[0][0] == 'yesil' and color_distribution[1][0] == 'kirmizi'):
+        nihai_sonuc = nihai_sonuc_dict['kirmizi_yesil']
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['kirmizi_yesil']
+
+    elif (color_distribution[0][0] == 'sari' and color_distribution[1][0] == 'mavi') or \
+            (color_distribution[0][0] == 'mavi' and color_distribution[1][0] == 'sari'):
+        nihai_sonuc = nihai_sonuc_dict['sari_mavi']
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['sari_mavi']
+
+    else:
+        nihai_sonuc = nihai_sonuc_dict[color_distribution[0][0]]
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict[color_distribution[0][0]]
 
 
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0 <br/><font size="2">build 26042023.1206</font>
+                ver 1.0.0 <br/><font size="2">build 26042023.2157</font>
                 </p>
             """, unsafe_allow_html=True
                )
