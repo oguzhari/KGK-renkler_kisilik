@@ -919,14 +919,14 @@ def gorseli_olustur():
                              "sonucunuzdan elde edildi. ("
         for r, n in zip(rational, total_names):
             if r != 0:
-                resimle_ilgili_not += f" %{str(r*100)} {n}"
+                resimle_ilgili_not += f" %{r*100:.2f} {n}"
         resimle_ilgili_not += ")"
 
 
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0 <br/><font size="2">build 24042023.1624</font>
+                ver 1.0.0 <br/><font size="2">build 26042023.1206</font>
                 </p>
             """, unsafe_allow_html=True
                )
