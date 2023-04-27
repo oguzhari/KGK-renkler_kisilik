@@ -6,6 +6,7 @@ from pydrive.drive import GoogleDrive
 import random
 import string
 import color_tone
+import send_mail
 
 st.config.set_option("theme.primaryColor", "white")
 
@@ -873,6 +874,7 @@ def dosya_olustur():
 
 
 def kontrol_butonu():
+    global mail, dosya_adi
     if st.button("Envanteri Kaydet"):
         # ad_soyad, meslek, unvan, bolum, yas, cinsiyet, mail, telefon
         with st.empty():
@@ -880,6 +882,7 @@ def kontrol_butonu():
             dosya_olustur()
             st.success("Analiz oluşturuldu! Kaydediliyor...")
             dosyayi_kaydet()
+            send_mail.send_analysis(mail, [dosya_adi])
             st.success("Analiz Kaydedildi, kariyer@sakarya.edu.tr üzerinden bizimle iletişime geçebilirsiniz.")
         st.balloons()
 
@@ -1036,7 +1039,7 @@ def nihai_karar():
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0 <br/><font size="2">build 26042023.2157</font>
+                ver 1.0.0 <br/><font size="2">build 27042023.1339</font>
                 </p>
             """, unsafe_allow_html=True
                )
