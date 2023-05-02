@@ -290,9 +290,9 @@ def sorular():
     st.info("Farklı karakterlerin özelliklerini tespit etmede bir ölçü olarak aşağıda bir test uygulaması "
             "yer almaktadır. Aşağıdaki test, her biri dört şıktan oluşan 15 soru içermektedir. Seçeneklerde belirtilen "
             "özellikler, size ne derece uyar ise ona göre puan veriniz.")
-    st.warning("Her sorunun altında dört şık yer almaktadır. Soruları cevaplarken size EN UYGUN seçeneğe 2 puan, "
-               "o seçenekten sonra size EN UYGUN ise 1 puan yazın. Seçeneklerden sadece iki şıkka puan verin, "
-               "eğer sadece tek şıkka işaret koyacaksanız, o şıkka 2 puan verin.")
+    st.warning("Her sorunun altında dört şık yer almaktadır. Seçeneklerden sadece "
+               "ikisine puan verebilirsiniz. Size en uygun seçeneğe 2, bir sonrakine "
+               "ise 1 puan verin. Sadece tek seçenek seçilecek ise 2 puan verin.")
     st.success("Envanteri telefondan dolduruyorsanız, telefonu yatay modda kullanmak okunabilirliği arttırabilir.")
     with st.container():
         st.markdown("<div class='content-container'></div>", unsafe_allow_html=True)
@@ -1039,7 +1039,7 @@ def nihai_karar():
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0 <br/><font size="2">build 27042023.1339</font>
+                ver 1.0.0 <br/><font size="2">build 02052023.1332</font>
                 </p>
             """, unsafe_allow_html=True
                )
