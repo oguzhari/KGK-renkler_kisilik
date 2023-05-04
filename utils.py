@@ -1009,7 +1009,7 @@ def nihai_karar():
     elif (color_distribution[0][0] == 'mavi' and color_distribution[1][0] == 'kirmizi') or \
             (color_distribution[0][0] == 'kirmizi' and color_distribution[1][0] == 'mavi'):
         nihai_sonuc = nihai_sonuc_dict['mavi_kirmizi']
-        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['kirmizi_yesil']
+        nihai_sonuc_aciklama = nihai_sonuc_aciklama_dict['mavi_kirmizi']
 
     elif (color_distribution[0][0] == 'yesil' and color_distribution[1][0] == 'sari') or \
             (color_distribution[0][0] == 'sari' and color_distribution[1][0] == 'yesil'):
