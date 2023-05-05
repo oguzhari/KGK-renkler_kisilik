@@ -1,6 +1,6 @@
 import streamlit as st
 from docx import Document
-from datetime import datetime
+from datetime import datetime, timedelta
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import random
@@ -819,7 +819,7 @@ def dosya_olustur():
     document.add_heading(ad_soyad.title(), 0)
     p = document.add_paragraph()
     p.add_run("Doldurulma tarihi").bold = True
-    p.add_run(f": {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}").italic = True
+    p.add_run(f": {(datetime.now() + timedelta(hours=3)).strftime('%d/%m/%Y %H:%M:%S')}").italic = True
 
     document.add_heading("A. Kişisel Bilgiler", level=1)
 
