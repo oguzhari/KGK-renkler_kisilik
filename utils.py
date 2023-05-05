@@ -240,16 +240,16 @@ nihai_sonuc_aciklama = ""
 # Cevapları kontrol et
 def cevaplari_kontrol_et(bir, iki, uc, dort):
     bir, iki, uc, dort = int(bir), int(iki), int(uc), int(dort)
-    if bir + iki + uc + dort == 3:
+    if bir + iki + uc + dort == 3 and ((bir + 1) * (iki + 1) * (uc + 1) * (dort + 1)) == 6:
         pass
-    elif bir + iki + uc + dort == 2:
+    elif bir + iki + uc + dort == 2 and ((bir + 1) * (iki + 1) * (uc + 1) * (dort + 1)) == 3:
         pass
     elif bir + iki + uc + dort == 0:
         pass
     else:
         st.error("Soruları cevaplama konusunda bir sorun var. "
-                 "Cevaplarda en az bir adet 2 olmalıdır. "
-                 "Bunun yanında en fazla bir adet 1 olabilir.")
+                 "Cevaplarınızda sadece bir adet '2' olmalıdır. "
+                 "Bunun yanında size yakın bir diğer seçeneğe '1' verebilirsiniz.")
 
 
 def head():
@@ -1039,7 +1039,7 @@ def nihai_karar():
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0 <br/><font size="2">build 05052023.1225</font>
+                ver 1.0.0 <br/><font size="2">build 05052023.1502</font>
                 </p>
             """, unsafe_allow_html=True
                )
