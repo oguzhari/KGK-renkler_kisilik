@@ -880,8 +880,8 @@ def kontrol_butonu():
         with st.empty():
             st.success("Analiz oluşturuluyor...")
             dosya_olustur()
-            st.success("Analiz oluşturuldu! Kaydediliyor...")
-            dosyayi_kaydet()
+            # st.success("Analiz oluşturuldu! Kaydediliyor...")
+            # dosyayi_kaydet()
             send_mail.send_analysis(mail, [dosya_adi])
             st.success("Analiz Kaydedildi, kariyer@sakarya.edu.tr üzerinden bizimle iletişime geçebilirsiniz.")
         st.balloons()
