@@ -1055,7 +1055,7 @@ def nihai_karar():
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0 <br/><font size="2">build 28102023.0033</font>
+                ver 1.0.0 <br/><font size="2">build 31102023.1405</font>
                 </p>
             """, unsafe_allow_html=True
                )
