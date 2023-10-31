@@ -950,7 +950,23 @@ def gorseli_olustur():
 
     total_names = ['kırmızı', 'sarı', 'yeşil', 'mavi']
     total = total_1 + total_2 + total_3 + total_4
-    total1, total2, total3, total4 = total_1 / total, total_2 / total, total_3 / total, total_4 / total
+    try:
+        total1 = total_1 / total
+    except ZeroDivisionError as e:
+        total1 = 0
+    try:
+        total2 = total_2 / total
+    except ZeroDivisionError as e:
+        total2 = 0 
+    try:
+        total3 = total_3 / total
+    except ZeroDivisionError as e:
+        total3 = 0
+    try:
+        total4 = total_4 / total
+    except ZeroDivisionError as e:
+        total4 = 0 
+        
     rational = [total1, total2, total3, total4]
     color_tone.create_gradient_image(total_names, rational, 430, 80, 'gradient.png')
 
