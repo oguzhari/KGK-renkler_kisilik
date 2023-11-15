@@ -262,7 +262,7 @@ def head():
 
     st.caption("""
         <p style='text-align: center;margin-bottom: 50px;'>
-        Sakarya Üniversitesi Kariyer ve Yetenek Yönetimi Koordinatörlüğü
+        Sakarya Üniversitesi Kariyer Geliştirme Yönetimi Koordinatörlüğü
         </p>
     """, unsafe_allow_html=True
                )
@@ -813,7 +813,7 @@ def dosya_olustur():
     section = document.sections[0]
     footer = section.footer
     paragraph = footer.paragraphs[0]
-    paragraph.text = "\tSakarya Üniversitesi Kariyer ve Yetenek Yönetimi Koordinatörlüğü"
+    paragraph.text = "\tSakarya Üniversitesi Kariyer Geliştirme Yönetimi Koordinatörlüğü"
     paragraph.style = document.styles["Header"]
 
     document.add_heading(ad_soyad.title(), 0)
@@ -883,7 +883,8 @@ def kontrol_butonu():
             # st.success("Analiz oluşturuldu! Kaydediliyor...")
             # dosyayi_kaydet()
             send_mail.send_analysis(mail, [dosya_adi])
-            st.success("Analiz Kaydedildi, kariyer@sakarya.edu.tr üzerinden bizimle iletişime geçebilirsiniz.")
+            st.success("Analiz Kaydedildi ve mail adresinize gönderildi, kariyer@sakarya.edu.tr üzerinden bizimle "
+                       "iletişime geçebilirsiniz.")
         st.balloons()
 
 
@@ -952,19 +953,23 @@ def gorseli_olustur():
     total = total_1 + total_2 + total_3 + total_4
     try:
         total1 = total_1 / total
-    except ZeroDivisionError as e:
+    except ZeroDivisionError as zero_exception:
+        print(zero_exception)
         total1 = 0
     try:
         total2 = total_2 / total
-    except ZeroDivisionError as e:
+    except ZeroDivisionError as zero_exception:
+        print(zero_exception)
         total2 = 0 
     try:
         total3 = total_3 / total
-    except ZeroDivisionError as e:
+    except ZeroDivisionError as zero_exception:
+        print(zero_exception)
         total3 = 0
     try:
         total4 = total_4 / total
-    except ZeroDivisionError as e:
+    except ZeroDivisionError as zero_exception:
+        print(zero_exception)
         total4 = 0 
         
     rational = [total1, total2, total3, total4]
@@ -1055,7 +1060,7 @@ def nihai_karar():
 def versiyon():
     st.caption("""
                 <p style='text-align: center;'>
-                ver 1.0.0 <br/><font size="2">build 31102023.1405</font>
+                ver 1.1.0 <br/><font size="2">build 15112023.2339</font>
                 </p>
             """, unsafe_allow_html=True
                )
