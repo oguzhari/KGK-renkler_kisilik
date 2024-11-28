@@ -382,7 +382,7 @@ def hatali_cevaplari_kontrol_et():
 
     if len(sorunlu_cevaplar) > 0:
         st.error(
-            f"Hatalı Cevaplar: {" ".join(sorunlu_cevaplar)} \n\nBu soruları tekrar gözden geçiriniz. "
+            f"Hatalı Cevaplar: {' '.join(sorunlu_cevaplar)} \n\nBu soruları tekrar gözden geçiriniz. "
             "Her sorunun altında dört şık yer almaktadır. Seçeneklerden sadece "
             "ikisine puan verebilirsiniz. Size en uygun seçeneğe 2, bir sonrakine "
             "ise 1 puan verin. Sadece tek seçenek seçilecek ise 2 puan verin. "
