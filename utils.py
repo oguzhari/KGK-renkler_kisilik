@@ -406,7 +406,7 @@ def head():
     st.caption(
         """
         <p style='text-align: center;margin-bottom: 50px;'>
-        Sakarya Üniversitesi Kariyer Geliştirme Yönetimi Koordinatörlüğü
+        Sakarya Üniversitesi Kariyer Geliştirme Koordinatörlüğü
         </p>
     """,
         unsafe_allow_html=True,
@@ -960,7 +960,7 @@ def dosya_olustur_danisman():
     footer = section.footer
     paragraph = footer.paragraphs[0]
     paragraph.text = (
-        "\tSakarya Üniversitesi Kariyer Geliştirme Yönetimi Koordinatörlüğü"
+        "\tSakarya Üniversitesi Kariyer Geliştirme Koordinatörlüğü"
     )
     paragraph.style = document.styles["Header"]
 
@@ -1060,7 +1060,7 @@ def dosya_olustur_ogrenci():
     footer = section.footer
     paragraph = footer.paragraphs[0]
     paragraph.text = (
-        "\tSakarya Üniversitesi Kariyer Geliştirme Yönetimi Koordinatörlüğü"
+        "\tSakarya Üniversitesi Kariyer Geliştirme Koordinatörlüğü"
     )
     paragraph.style = document.styles["Header"]
 
