@@ -1455,7 +1455,7 @@ def versiyon():
     st.caption(
         """
                 <p style='text-align: center;'>
-                ver 1.2.0 <br/><font size="2">build 28112024.1628</font>
+                ver 1.2.1 <br/><font size="2">build 19122024.2317</font>
                 </p>
             """,
         unsafe_allow_html=True,
