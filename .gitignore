@@ -7,3 +7,4 @@ __pycache__/
 *.txt
 test.py
 .DS_Store
+.vscode/settings.json

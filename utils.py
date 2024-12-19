@@ -959,9 +959,7 @@ def dosya_olustur_danisman():
     section = document.sections[0]
     footer = section.footer
     paragraph = footer.paragraphs[0]
-    paragraph.text = (
-        "\tSakarya Üniversitesi Kariyer Geliştirme Koordinatörlüğü"
-    )
+    paragraph.text = "\tSakarya Üniversitesi Kariyer Geliştirme Koordinatörlüğü"
     paragraph.style = document.styles["Header"]
 
     document.add_heading(ad_soyad.title(), 0)
@@ -1059,9 +1057,7 @@ def dosya_olustur_ogrenci():
     section = document.sections[0]
     footer = section.footer
     paragraph = footer.paragraphs[0]
-    paragraph.text = (
-        "\tSakarya Üniversitesi Kariyer Geliştirme Koordinatörlüğü"
-    )
+    paragraph.text = "\tSakarya Üniversitesi Kariyer Geliştirme Koordinatörlüğü"
     paragraph.style = document.styles["Header"]
 
     document.add_heading(ad_soyad.title(), 0)
@@ -1131,6 +1127,14 @@ def kontrol_butonu():
             if mail == "":
                 st.error("Mail adresi boş olamaz.")
             else:
+                # Mail adresi kontrolü
+                allowed_domains = ["@ogr.sakarya.edu.tr", "@sakarya.edu.tr"]
+                if not any(mail.endswith(domain) for domain in allowed_domains):
+                    st.error(
+                        "Envanter çözmek keyifli olabilir, ancak bu hizmet sadece üniversitemiz öğrencileri içindir. Lütfen '@ogr.sakarya.edu.tr' veya '@sakarya.edu.tr' uzantılı bir mail adresi giriniz. Öğrenci e-posta hizmetiyle ilgili bilgi almak için https://bidb.sakarya.edu.tr/tr/icerik/9699/79243/sss"
+                    )
+                    return
+
                 with st.empty():
                     st.success("Analiz oluşturuluyor...")
                     dosya_olustur_ogrenci()
