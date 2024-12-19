@@ -421,7 +421,11 @@ def kisisel_bilgiler():
     bolum = st.text_input("Bölümünüz", key="bolum")
     yas = st.text_input("Yaşınız", key="yas")
     cinsiyet = st.selectbox("Cinsiyetiniz", ["Erkek", "Kadın"], key="cinsiyet")
-    mail = st.text_input("Mail Adresiniz", key="mail")
+    mail = st.text_input(
+        "Mail Adresiniz",
+        placeholder="@ogr.sakarya.edu.tr veya @sakarya.edu.tr uzantılı adres",
+        key="mail",
+    )
     telefon = st.text_input("Telefon Numaranız", key="telefon")
 
 
