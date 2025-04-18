@@ -6,6 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email import encoders
+from pathlib import Path
 import os
 import streamlit as st
 import requests as rs
@@ -44,11 +45,19 @@ def send_analysis(recipients_addr, files_path=None, server="smtp.gmail.com"):
     msg = mime_init(FROM, TO, SUBJECT, BODY)
 
     for file_path in files_path or []:
+        path_obj = Path(file_path)
+        file_name = path_obj.name
+        if path_obj.suffix == "":
+            file_name += ".docx"
+
         with open(file_path, "rb") as fp:
-            part = MIMEBase("application", "octet-stream")
+            part = MIMEBase(
+                "application",
+                "vnd.openxmlformats-officedocument.wordprocessingml.document",
+            )
             part.set_payload(fp.read())
             encoders.encode_base64(part)
-            part.add_header("content-disposition", f"attachment; filename={file_path}")
+            part.add_header("Content-Disposition", "attachment", filename=file_name)
             msg.attach(part)
 
     creds = get_credentials()
@@ -72,11 +81,19 @@ def send_analysis_to_danisman(
     msg = mime_init(FROM, TO, SUBJECT, BODY)
 
     for file_path in files_path or []:
+        path_obj = Path(file_path)
+        file_name = path_obj.name
+        if path_obj.suffix == "":
+            file_name += ".docx"
+
         with open(file_path, "rb") as fp:
-            part = MIMEBase("application", "octet-stream")
+            part = MIMEBase(
+                "application",
+                "vnd.openxmlformats-officedocument.wordprocessingml.document",
+            )
             part.set_payload(fp.read())
             encoders.encode_base64(part)
-            part.add_header("content-disposition", f"attachment; filename={file_path}")
+            part.add_header("Content-Disposition", "attachment", filename=file_name)
             msg.attach(part)
 
     creds = get_credentials()
